@@ -4,8 +4,8 @@ project_name:
     dev:
       type: bigquery
       method: oauth
-      project: artful-shelter-265814
-      dataset: dwh_pioneers
+      project: project-id
+      dataset: dataset_id
       threads: 6
       job_execution_timeout_setting: 300
       priority: interactive
@@ -14,8 +14,8 @@ project_name:
     prod:
       type: bigquery
       method: oauth
-      project: artful-shelter-265814
-      dataset: dwh_pioneers_prod
+      project: project-id
+      dataset: dataset_id
       threads: 6
       job_execution_timeout_setting: 300
       priority: interactive
