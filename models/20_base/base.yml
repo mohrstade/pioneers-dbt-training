@@ -1,0 +1,8 @@
+version: 2
+models:
+  - name: base_ga4__pageviews
+    description: "base table for views per page_location"
+    columns:
+      - name: page_location
+        tests:
+          - not_null
