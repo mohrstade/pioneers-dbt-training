@@ -1,0 +1,168 @@
+version: 2
+
+sources:
+  - name: src_ga4
+    description: ""
+    database: project-id
+    schema: dataset_id
+    tables:
+      - name: events
+        identifier: events_*
+        description: ""
+        columns:
+          - name: event_date
+            data_type: string
+            description: ""
+          - name: event_timestamp
+            data_type: int64
+            description: ""
+          - name: event_name
+            data_type: string
+            description: ""
+          - name: event_params
+            data_type: record
+            description: ""
+          - name: event_previous_timestamp
+            data_type: int64
+            description: ""
+          - name: event_value_in_usd
+            data_type: float64
+            description: ""
+          - name: event_bundle_sequence_id
+            data_type: int64
+            description: ""
+          - name: event_server_timestamp_offset
+            data_type: int64
+            description: ""
+          - name: user_id
+            data_type: string
+            description: ""
+          - name: user_pseudo_id
+            data_type: string
+            description: ""
+          - name: privacy_info
+            data_type: record
+            description: ""
+          - name: user_properties
+            data_type: record
+            description: ""
+          - name: user_first_touch_timestamp
+            data_type: int64
+            description: ""
+          - name: user_ltv
+            data_type: record
+            description: ""
+          - name: device
+            data_type: record
+            description: ""
+          - name: geo
+            data_type: record
+            description: ""
+          - name: app_info
+            data_type: record
+            description: ""
+          - name: traffic_source
+            data_type: record
+            description: ""
+          - name: stream_id
+            data_type: string
+            description: ""
+          - name: platform
+            data_type: string
+            description: ""
+          - name: event_dimensions
+            data_type: record
+            description: ""
+          - name: ecommerce
+            data_type: record
+            description: ""
+          - name: items
+            data_type: record
+            description: ""
+          - name: collected_traffic_source
+            data_type: record
+            description: ""
+          - name: is_active_user
+            data_type: boolean
+            description: ""
+
+      - name: events_intraday
+        identifier: events_intraday_*
+        description: ""
+        columns:
+          - name: event_date
+            data_type: string
+            description: ""
+          - name: event_timestamp
+            data_type: int64
+            description: ""
+          - name: event_name
+            data_type: string
+            description: ""
+          - name: event_params
+            data_type: record
+            description: ""
+          - name: event_previous_timestamp
+            data_type: int64
+            description: ""
+          - name: event_value_in_usd
+            data_type: float64
+            description: ""
+          - name: event_bundle_sequence_id
+            data_type: int64
+            description: ""
+          - name: event_server_timestamp_offset
+            data_type: int64
+            description: ""
+          - name: user_id
+            data_type: string
+            description: ""
+          - name: user_pseudo_id
+            data_type: string
+            description: ""
+          - name: privacy_info
+            data_type: record
+            description: ""
+          - name: user_properties
+            data_type: record
+            description: ""
+          - name: user_first_touch_timestamp
+            data_type: int64
+            description: ""
+          - name: user_ltv
+            data_type: record
+            description: ""
+          - name: device
+            data_type: record
+            description: ""
+          - name: geo
+            data_type: record
+            description: ""
+          - name: app_info
+            data_type: record
+            description: ""
+          - name: traffic_source
+            data_type: record
+            description: ""
+          - name: stream_id
+            data_type: string
+            description: ""
+          - name: platform
+            data_type: string
+            description: ""
+          - name: event_dimensions
+            data_type: record
+            description: ""
+          - name: ecommerce
+            data_type: record
+            description: ""
+          - name: items
+            data_type: record
+            description: ""
+          - name: collected_traffic_source
+            data_type: record
+            description: ""
+          - name: is_active_user
+            data_type: boolean
+            description: ""
+
