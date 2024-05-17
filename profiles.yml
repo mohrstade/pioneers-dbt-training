@@ -1,0 +1,23 @@
+project_name:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: artful-shelter-265814
+      dataset: dwh_pioneers
+      threads: 6
+      job_execution_timeout_setting: 300
+      priority: interactive
+      retries: 1
+      location: EU
+    prod:
+      type: bigquery
+      method: oauth
+      project: artful-shelter-265814
+      dataset: dwh_pioneers_prod
+      threads: 6
+      job_execution_timeout_setting: 300
+      priority: interactive
+      retries: 1
+      location: EU
