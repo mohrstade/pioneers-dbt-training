@@ -2,6 +2,8 @@
 # Voraussetzungen:
 - Python: https://code.visualstudio.com/docs/python/python-tutorial
 - Cloud-SDK: https://cloud.google.com/sdk/docs/install-sdk
+- GIT https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+- VS Code https://code.visualstudio.com/download
 
 # DBT Projekt Ausetzen
 
